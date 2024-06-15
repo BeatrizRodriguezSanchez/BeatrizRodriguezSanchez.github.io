@@ -1,9 +1,50 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.fuentedescargables { 
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 
-font-size: 19px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+
+}
+
+#carousel {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container1 {
+  background-color: rgb(44, 43, 43);
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+  padding-top: 1.5%;
+}
+
+.container2 {
+  background-color: rgb(44, 43, 43);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+  padding-top: 1.5%;
+}
+
+
+
+#a {
+  color: inherit;
 }
