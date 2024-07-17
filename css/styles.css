@@ -48,3 +48,22 @@ body {
 #a {
   color: inherit;
 }
+
+#titulo {
+text-size-adjust: 20x;
+
+}
+#titulo2 {
+text-size-adjust: 12;
+
+}
+
+#todo{
+  text-align: center;
+  font-family: monospace;
+}
+#relleno{
+font-size: 20px;
+font-style: oblique;
+
+}
